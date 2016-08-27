@@ -1,2 +1,0 @@
-# androidStudio
-Aulas do Rovaron
