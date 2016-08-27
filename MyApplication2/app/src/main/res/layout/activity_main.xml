@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/corDoApp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Label 1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorAccent"
+            android:text="Label 2"
+            android:padding="30dp"
+            />
+
+        <TextView
+            android:width="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:text="Label 3"
+            />
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:layout_margin="50dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android"/>
+
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/btnBotao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Botão"/>
+</LinearLayout>
